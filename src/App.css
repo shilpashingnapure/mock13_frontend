@@ -1,0 +1,100 @@
+.Nav{
+    background-color: green;
+    padding:25px 20px;
+    display: flex;
+    gap:20px;
+}
+
+a{
+    color:#fff;
+    text-decoration: none;
+}
+
+form{
+    padding: 20px;
+    border:1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap:15px;
+    justify-content: center;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+h1{
+    text-align: center;
+}
+input  , select{
+    padding:10px;
+    border-radius: 5px;
+    border:1px solid grey
+
+}
+
+input:last-child{
+    background-color: #02bdd5;
+    color:#fff;
+    border: none;
+}
+
+
+.keyboard{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    padding:15px;
+    gap:20px;
+    width:80%;
+    border-radius: 15px;
+    margin: auto;
+    background-color: #262c2c;
+
+}
+
+.keyboard > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:10px;
+    color:#02bdd5;
+    background-color: #2f3639;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+
+.keyboard > div:nth-child(35){
+    grid-area: 3/11/4/-1;
+}
+.keyboard > div:nth-child(46){
+    grid-area: 4/11/5/-1;
+}
+.keyboard > div:nth-child(51){
+    grid-area: 5/5/6/9;
+}
+
+table{
+    border:1px solid rgb(120, 118, 118);
+    border-collapse: collapse;
+    margin: auto;
+
+}
+
+tr:nth-child(even){
+    background-color: #02bdd5;
+}
+
+tr , td , th {
+    padding:15px 20px;
+    border: 1px solid rgb(184, 183, 183);
+}
+
+input:focus{
+    outline: none;
+}
+
+.level{
+    padding:10px;
+    display: inline-block;
+}
